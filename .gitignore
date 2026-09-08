@@ -1,0 +1,53 @@
+# ==========================================
+# Verilog / SystemVerilog & EDA Tools .gitignore
+# ==========================================
+
+# 1. Simulation & Waveform Outputs
+*.vcd
+*.fst
+*.ghw
+*.wcfg
+*.wdb
+*.log
+*.key
+
+# 2. Vivado / Xilinx Temporary Files
+.Xil/
+*.jou
+*.pb
+*.dir/
+*.str
+xsim.dir/
+vivado*.log
+vivado*.jou
+*_vhdl.prj
+*_verilog.prj
+
+# 3. Verilator Outputs
+obj_dir/
+*.d
+
+# 4. ModelSim / Questasim Outputs
+work/
+transcript
+*.wlf
+*.mpf
+*.mti
+
+# 5. Yosys & Icarus Verilog (iverilog)
+*.out
+a.out
+*.blif
+
+# 6. EDA/IDE Local Settings & Cache
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+
+# 7. Synthesized Bitstreams / Heavy Artifacts
+# (필요에 따라 최종 .bit 파일만 따로 track하거나 LFS를 사용할 수 있으므로 기본 제외)
+*.bit
+*.bin
+*.mcs
