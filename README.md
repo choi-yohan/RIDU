@@ -1,2 +1,4 @@
 # RIDU
-Custom CPU-NPU SoC Microarchitecture for Microcontrollers
+Custom CPU-NPU SoC Microarchitecture for Microcontrollers.
+
+Under construction
